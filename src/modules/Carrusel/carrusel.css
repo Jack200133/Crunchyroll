@@ -1,0 +1,7 @@
+.diossabe {
+    background-image: url('../../../assets/carrusel.svg');
+    min-width: 5rem;
+    min-height: 5rem;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(100deg) brightness(115%) contrast(106%);
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,90 @@
+.header-container {
+    background-color: #23252b;
+    height: 3.75rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    min-width: 20rem;
+}
+
+.a {
+    filter: invert(51%) sepia(27%) saturate(1969%) hue-rotate(346deg) brightness(99%) contrast(93%);
+    height: 3.75rem;
+    width: inherit;
+    min-width: 10rem;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.a:hover {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(100deg) brightness(115%) contrast(106%);
+}
+
+.header-logo {
+    width: 20%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-left {
+    color: #fff;
+    font-family: Lato, Helvetica Neue, helvetica, sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-right {
+    color: #fff;
+    font-family: Lato, Helvetica Neue, helvetica, sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Explorar {
+    color: rgb(218, 218, 218);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Manga {
+    color: rgb(218, 218, 218);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Juegos {
+    color: rgb(218, 218, 218);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Noticias {
+    color: rgb(218, 218, 218);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.Search {
+    color: rgb(218, 218, 218);
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.b {
+    min-width: 10rem;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(100deg) brightness(115%) contrast(106%);
+}
