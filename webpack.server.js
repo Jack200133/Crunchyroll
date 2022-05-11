@@ -19,7 +19,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpg|gif|svg|jpeg)$/,
+        test: /\.(png|jpg|gif|jpeg)$/,
         type: 'asset/resource',
       },
       {
@@ -29,6 +29,11 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['file-loader'],
+      },
+      {
+        test: /\.svg$/i,
+        issuer: /\.[jt]sx?$/,
+        use: ['@svgr/webpack'],
       },
     ],
   },

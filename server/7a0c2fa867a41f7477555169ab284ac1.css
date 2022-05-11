@@ -1,0 +1,32 @@
+.containcercarrusel3 {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.75rem;
+    min-width: 64em;
+    overflow: hidden;
+    background: #2abdbb;
+}
+
+.blue {
+    overflow: hidden;
+    display: unset;
+    height: 100.625rem;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    transform: translate(39%, -29%);
+    width: 43.4375rem;
+}
+
+.blue2 {
+    overflow: hidden;
+    display: unset;
+    height: 100.625rem;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    transform: translate(39%, -29%);
+    width: 43.4375rem;
+}

@@ -6,7 +6,7 @@ import Flecha from '../../../assets/flecha.svg'
 
 const Navbar = () => (
 
-  <div className="header-container">
+  <header className="header-container">
     <div className="header-logo">
       <div className="a" />
     </div>
@@ -15,10 +15,14 @@ const Navbar = () => (
         Explorar
         <Flecha className="down" />
       </div>
-      <div className="Manga">Manga</div>
-      <div className="Juegos">Juegos</div>
+      <div className="Manga">
+        <span className="letra">Manga</span>
+      </div>
+      <div className="Juegos">
+        <span className="letra">Juegos</span>
+      </div>
       <div className="Noticias">
-        Noticias
+        <span className="letra">Noticias</span>
         <Flecha className="down" />
       </div>
 
@@ -35,7 +39,7 @@ const Navbar = () => (
         <Flecha className="down" />
       </div>
     </div>
-  </div>
+  </header>
 
 )
 

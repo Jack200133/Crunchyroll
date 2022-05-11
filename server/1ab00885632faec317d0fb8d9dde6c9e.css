@@ -1,0 +1,23 @@
+.containcercarrusel1 {
+    height: 67vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.75rem;
+    min-width: 64em;
+    background: linear-gradient(0.25turn, #f47521, #fab818);
+}
+
+.base {
+    min-width: 5rem;
+    min-height: 5rem;
+}
+
+.colita {
+    width: 100em;
+    height: 120em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
