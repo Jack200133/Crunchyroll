@@ -1,0 +1,46 @@
+.containertext {
+    background-color: #23252b;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.containeractive {
+    background-color: #213944;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.containeractive:hover {
+    background-color: #2f5161;
+}
+
+
+.containertext:hover {
+    background-color: #393B41;
+}
+
+.indicator {
+    top: 100px;
+    position: fixed;
+}
+
+.textt {
+    font-family: Lato;
+    font-weight: 500;
+    line-height: var(--line-height);
+
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: #fff;
+    display: -webkit-box;
+    min-height: 2rem;
+    max-width: 164px;
+    overflow: hidden;
+    text-align: left;
+}

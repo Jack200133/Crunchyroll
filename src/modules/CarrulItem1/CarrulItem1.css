@@ -1,5 +1,5 @@
 .containcercarrusel1 {
-    height: 450px;
+    height: 460px;
     display: flex;
     overflow: hidden;
     position: relative;
@@ -8,11 +8,21 @@
     padding-top: 3.75rem;
     min-width: 64em;
     background: linear-gradient(0.25turn, #f47521, #fab818);
+    transition: 2s ease;
+    transition-delay: 0.5s;
 }
 
 .base {
-    min-width: 20rem;
-    min-height: 20rem;
+    min-width: 970px;
+    min-height: 397px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    transition: 2s ease;
+    transition-delay: 0.5s;
 }
 
 .colita {

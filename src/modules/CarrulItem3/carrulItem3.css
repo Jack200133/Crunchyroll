@@ -1,32 +1,45 @@
 .containcercarrusel3 {
-    height: 60%;
+    height: 460px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 3.75rem;
     min-width: 64em;
     overflow: hidden;
+    position: relative;
     background: #2abdbb;
+    transition: opacity .3s ease-in;
 }
 
 .blue {
     overflow: hidden;
     display: unset;
-    height: 100.625rem;
+    height: 100rem;
     position: absolute;
-    right: 10px;
-    top: 30px;
+    right: 200px;
+    top: -200px;
     transform: translate(39%, -29%);
-    width: 43.4375rem;
+    width: 43rem;
 }
 
 .blue2 {
     overflow: hidden;
     display: unset;
-    height: 100.625rem;
+    height: 100rem;
     position: absolute;
-    right: 10px;
-    top: 30px;
-    transform: translate(39%, -29%);
-    width: 43.4375rem;
+    right: 1100px;
+    transform: rotate(180deg);
+    transform: rotateX(180deg);
+    width: 50rem;
+}
+
+.blue3 {
+    overflow: hidden;
+    display: unset;
+    height: 100rem;
+    position: absolute;
+    top: -700px;
+    left: -300px;
+    transform: rotate(45deg);
+    width: 50rem;
 }

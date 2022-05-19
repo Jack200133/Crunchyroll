@@ -3,6 +3,8 @@
     min-width: 5rem;
     min-height: 5rem;
     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
 }
 
 .containertotal {
@@ -10,9 +12,38 @@
 }
 
 .iconizq {
-    max-width: 3rem;
-    max-height: 3rem;
+    min-width: 60px;
+    min-height: 60px;
     position: absolute;
-    top: 250px;
-    left: 1300px;
+
+    top: 260px;
+    left: 1280px;
+    background: transparent;
+    border-color: transparent;
+}
+
+button:hover {
+    background-color: black;
+}
+
+button:hover .der {
+    fill: white;
+}
+
+button:hover .izq {
+    fill: white;
+}
+
+.iconder {
+    min-width: 60px;
+    min-height: 60px;
+    position: absolute;
+    left: 200px;
+    top: 260px;
+    background: transparent;
+    border-color: transparent;
+}
+
+.der {
+    transform: rotate(180deg);
 }

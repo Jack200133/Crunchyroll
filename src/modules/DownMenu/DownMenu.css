@@ -1,0 +1,16 @@
+.algo {
+    display: grid;
+    grid-template-columns: 164px 164px 164px 164px 164px 164px;
+    width: 1050px;
+    height: 54px;
+    background-color: black;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+
+}
+
+.padre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
