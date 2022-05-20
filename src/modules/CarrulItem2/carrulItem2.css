@@ -1,16 +1,3 @@
-.containcercarrusel2 {
-    height: 400px;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    overflow: hidden;
-    padding-top: 7.75rem;
-    min-width: 64em;
-    background: linear-gradient(0.25turn, #fab818, #f47521, #fab818);
-    transition: 8s ease;
-    transition-delay: 0.5s;
-}
-
 .Lines {
     height: 100.625rem;
     left: 20px;

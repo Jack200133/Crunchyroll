@@ -1,14 +1,12 @@
 import React from 'react'
-import { SwitchTransition, CSSTransition } from 'react-transition-group'
 import Proptypes from 'prop-types'
 import './Down.css'
 import ProgressBar from '../ProgressBar/ProgressBar.jsx'
 
-const Down = ({ text, actt }) => {
-  console.log(actt)
+const Down = ({ text, actt, onClick }) => {
   if (actt) {
     return (
-      <button className="containeractive" type="button">
+      <button className="containeractive" type="button" onClick={onClick}>
         <ProgressBar className="indicator" width={160} percent={1} />
         <span className="textt">
           {text}
@@ -18,7 +16,7 @@ const Down = ({ text, actt }) => {
   }
   return (
 
-    <button className="containertext" type="button">
+    <button className="containertext" type="button" onClick={onClick}>
       <span className="textt">
         {text}
       </span>
@@ -29,5 +27,6 @@ const Down = ({ text, actt }) => {
 Down.propTypes = {
   text: Proptypes.string.isRequired,
   actt: Proptypes.bool.isRequired,
+  onClick: Proptypes.func.isRequired,
 }
 export default Down

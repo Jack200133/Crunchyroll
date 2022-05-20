@@ -3,8 +3,8 @@ import Proptypes from 'prop-types'
 import './carrulItem3.css'
 import Circle from '../../../assets/circle2.svg'
 
-const CarrulItem3 = ({ mage }) => (
-  <div className="containcercarrusel3">
+const CarrulItem3 = ({ mage, className }) => (
+  <div className={className}>
     <Circle className="blue" />
     <Circle className="blue2" />
     <Circle className="blue3" />
@@ -15,6 +15,7 @@ const CarrulItem3 = ({ mage }) => (
 
 CarrulItem3.propTypes = {
   mage: Proptypes.string.isRequired,
+  className: Proptypes.string.isRequired,
 }
 
 export default CarrulItem3

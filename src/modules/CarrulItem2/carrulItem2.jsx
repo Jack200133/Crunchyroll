@@ -4,8 +4,8 @@ import Proptypes from 'prop-types'
 import TriLine from '../../../assets/triLine.svg'
 import Circle from '../../../assets/circle.svg'
 
-const CarrulItem2 = ({ mage }) => (
-  <div className="containcercarrusel2">
+const CarrulItem2 = ({ mage, className }) => (
+  <div className={className} style={{ background: 'linear-gradient(0.25turn, #fab818, #f47521, #fab818)' }}>
     <TriLine className="Lines" />
     <Circle className="Circle" />
     <div className="base" style={{ backgroundImage: `url(${mage})` }} />
@@ -15,6 +15,7 @@ const CarrulItem2 = ({ mage }) => (
 
 CarrulItem2.propTypes = {
   mage: Proptypes.string.isRequired,
+  className: Proptypes.string.isRequired,
 }
 
 export default CarrulItem2

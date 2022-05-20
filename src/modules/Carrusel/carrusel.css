@@ -47,3 +47,73 @@ button:hover .izq {
 .der {
     transform: rotate(180deg);
 }
+
+
+
+
+h1 {
+    padding-top: 260px;
+    color: white;
+}
+
+.HOKL {
+    height: calc(460px + 3.75rem);
+    display: block;
+    position: relative;
+    flex-direction: row;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.left-exit {
+    transform: translateX(0);
+}
+
+.left-exit-active {
+    transform: translateX(100%);
+    transition: all 2s;
+}
+
+.left-enter {
+
+    transform: translateX(-100%);
+}
+
+.left-enter-active {
+
+    transform: translateX(0);
+    transition: all 2s;
+}
+
+
+.right-exit {
+    transform: translateX(0);
+}
+
+.right-exit-active {
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.right-enter {
+    transform: translateX(100%);
+}
+
+.right-enter-active {
+
+    transform: translateX(0);
+    transition: all 2s;
+}
+
+.carruselItem {
+    height: 100%;
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.75rem;
+    background-color: #2abdbb;
+}
