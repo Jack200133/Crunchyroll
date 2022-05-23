@@ -57,7 +57,7 @@ h1 {
 }
 
 .HOKL {
-    height: calc(460px + 3.75rem);
+    height: calc(500px + 3.75rem);
     display: block;
     position: relative;
     flex-direction: row;

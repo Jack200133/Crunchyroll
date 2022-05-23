@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Crunchyroll';
+    src: url("../../../fonts/Crunchyroll-Book.woff2") format("woff2");
+    font-weight: Bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Crunchyroll';
+    src: url("../../../fonts/Crunchyroll-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    font-family: Crunchyroll;
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.gradient {
+    width: 1050px;
+    height: 5px;
+    background-image: linear-gradient(to left, #213944, #2abdbb);
+}
+
+.box {
+    width: 1050px;
+    display: flex;
+    justify-self: flex-start;
+}
+
+.containerMini {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.butuns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.iconizq2 {
+    min-width: 60px;
+    min-height: 60px;
+    background: transparent;
+    border-color: transparent;
+    fill: white;
+}
+
+button:hover {
+    background-color: #23252b;
+}
+
+.iconder2 {
+    fill: white;
+    min-width: 60px;
+    min-height: 60px;
+    background: transparent;
+    border-color: transparent;
+}
+
+.der {
+    transform: rotate(180deg);
+}
+
+.HOLK {
+    display: block;
+    max-width: 1050px;
+    position: relative;
+    flex-direction: row;
+    height: 300px;
+}

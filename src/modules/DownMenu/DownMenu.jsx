@@ -4,9 +4,9 @@ import Down from '../Down/Down.jsx'
 import './DownMenu.css'
 
 const DownMenu = ({ activo, onDownClick }) => {
-  const contextoo = ['AHAREN-SAN WA HAKARENAI', 'DANCE DANCE DANSEUR',
+  const contextoo = ['RASCAL DOES NOT DREAM OF BUNNY GIRL SENPAI', 'AHAREN-SAN WA HAKARENAI',
     'KAGUYA-SAMA: LOVE IS WAR -ULTRA ROMANTIC-',
-    'LOVE AFTER WORLD DOMINATION', 'SKELETON KNIGHT IN ANOTHER WORLD', 'SPY x FAMILY']
+    'LOVE AFTER WORLD DOMINATION', 'ASCENDANCE OF A BOOKWORM', 'SPY x FAMILY']
 
   return (
     <div className="padre">

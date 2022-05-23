@@ -6,11 +6,11 @@ import CarrulItem1 from '../CarrulItem1/CarrulItem1.jsx'
 import CarrulItem2 from '../CarrulItem2/carrulItem2.jsx'
 import CarrulItem3 from '../CarrulItem3/carrulItem3.jsx'
 import DownMenu from '../DownMenu/DownMenu.jsx'
-import t1 from '../../../assets/imgs/aharen.png'
-import t2 from '../../../assets/imgs/dance.png'
+import t1 from '../../../assets/imgs/bunny.png'
+import t2 from '../../../assets/imgs/aharen.png'
 import t3 from '../../../assets/imgs/kaguya.png'
 import t4 from '../../../assets/imgs/love.png'
-import t5 from '../../../assets/imgs/skeleton.png'
+import t5 from '../../../assets/imgs/bookworm.png'
 import t6 from '../../../assets/imgs/spy.png'
 import Izq from '../../../assets/arrowizq.svg'
 import Der from '../../../assets/arrowder.svg'
@@ -40,26 +40,26 @@ const Carrusel = () => {
     selectImage(Index, ops)
   }
   const handleDownClick = (index) => {
-    settime(300)
+    settime(200)
     if (Index > index) {
       setnext(false)
       for (let i = Index; i >= index; i -= 1) {
         setTimeout(() => {
           setIndex(i)
-        }, 300 * (Index - i))
+        }, 200 * (Index - i))
       }
       setTimeout(() => {
         settime(2000)
-      }, 300 * ((Index - index) + 1))
+      }, 200 * ((Index - index) + 1))
     } else {
       for (let i = Index; i <= index; i += 1) {
         setTimeout(() => {
           setIndex(i)
-        }, 300 * i)
+        }, 200 * i)
       }
       setTimeout(() => {
         settime(2000)
-      }, 300 * ((index - Index) + 1))
+      }, 200 * ((index - Index) + 1))
     }
   }
 
@@ -69,6 +69,7 @@ const Carrusel = () => {
     }, 8000)
     return () => clearInterval(interval)
   }, [Index])
+
   const Image = ops[Index]
   const opsBack = [<CarrulItem2 mage={Image} className="carruselItem" />, <CarrulItem3 mage={Image} className="carruselItem" />,
   <CarrulItem1 mage={Image} className="carruselItem" />, <CarrulItem3 mage={Image} className="carruselItem" />,
