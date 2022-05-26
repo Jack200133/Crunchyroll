@@ -1,0 +1,18 @@
+.Lines {
+    height: 100.625rem;
+    left: 20px;
+    position: absolute;
+    top: 60px;
+    transform: translate(-40%, -32.3%);
+    width: 43.4375rem;
+}
+
+.Circle {
+    display: unset;
+    height: 100.625rem;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    transform: translate(39%, -29%);
+    width: 43.4375rem;
+}

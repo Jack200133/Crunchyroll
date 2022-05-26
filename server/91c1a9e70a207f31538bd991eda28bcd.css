@@ -1,0 +1,20 @@
+.minicontainer {
+    width: 1050px;
+    color: aquamarine;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.algo2 {
+    display: flex;
+    align-items: flex-start;
+    justify-self: center;
+    width: 1050px;
+    height: 1px;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+    height: 300px;
+    position: absolute;
+}

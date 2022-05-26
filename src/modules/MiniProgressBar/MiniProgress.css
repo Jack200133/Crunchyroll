@@ -1,0 +1,23 @@
+.progress-div2 {
+    background-color: black;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.progress2 {
+    background-color: #f47521;
+    height: 100%;
+    opacity: 1;
+}
+
+.minipade {
+    display: flex;
+    height: 5.7px;
+    width: 100%;
+    position: absolute;
+    bottom: 0.65rem;
+}
+
+.minipade:hover .progress-div2 {
+    display: block;
+}

@@ -6,7 +6,6 @@ import './MiniContainer.css'
 
 const MiniContainer = ({ datos }) => {
   const contextoo = [...datos]
-  console.log(contextoo)
   return (
     <div className="minicontainer">
       <div className="algo2">

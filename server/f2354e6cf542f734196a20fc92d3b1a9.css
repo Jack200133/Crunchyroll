@@ -1,0 +1,22 @@
+.base {
+    min-width: 970px;
+    min-height: 397px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    transition: 2s ease;
+    transition-delay: 0.5s;
+}
+
+.colita {
+    width: 100em;
+    height: 120em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+    position: absolute;
+}
