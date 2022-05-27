@@ -4,7 +4,7 @@ import * as ReactDOMServer from 'react-dom/server'
 import express from 'express'
 import App from '../src/App.jsx'
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3115
 const app = express()
 
 app.get('/', (req, res) => {
@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
     <html lang="en">
     <head>
         <title>Document</title>
+        <link rel="icon" type="image/png" sizes="96x96" href="https://static.crunchyroll.com/cxweb/assets/img/favicons/favicon-96x96.png"/>
     </head>
     <body style="margin: 0px;">
         <div id="root">${element}</div>

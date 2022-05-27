@@ -1,4 +1,7 @@
 module.exports = {
+  resolve: {
+    extensions: ['', '.js', '.jsx'],
+  },
   target: 'web',
   mode: 'development',
   devtool: 'source-map',
@@ -20,10 +23,6 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use: [{ loader: 'babel-loader' }],
-      },
-      {
-        test: /\.(mp3)$/,
-        use: [{ loader: 'file-loader' }],
       },
       {
         test: /\.css$/,

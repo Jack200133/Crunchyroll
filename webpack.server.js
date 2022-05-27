@@ -2,6 +2,9 @@ const path = require('path')
 const webpackNodeExternals = require('webpack-node-externals')
 
 module.exports = {
+  resolve: {
+    extensions: ['', '.js', '.jsx'],
+  },
   target: 'node',
   entry: ['./server/index.jsx'],
   externals: [webpackNodeExternals()],
@@ -23,12 +26,8 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.mp3$/,
-        use: [{ loader: 'file-loader' }],
-      },
-      {
         test: /\.css$/,
-        use: ['file-loader'],
+        use: ['style-loader', 'css-loader'],
       },
       {
         test: /\.svg$/i,

@@ -12,8 +12,8 @@
 }
 
 .iconizq {
-    min-width: 60px;
-    min-height: 60px;
+    width: 60px;
+    height: 60px;
     position: absolute;
 
     top: 260px;
@@ -35,8 +35,8 @@ button:hover .izq {
 }
 
 .iconder {
-    min-width: 60px;
-    min-height: 60px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     left: 200px;
     top: 260px;

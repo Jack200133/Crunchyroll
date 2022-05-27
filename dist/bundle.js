@@ -73,6 +73,42 @@ var SvgArrowizq = function SvgArrowizq(props) {
 
 /***/ }),
 
+/***/ "./assets/book.svg":
+/*!*************************!*\
+  !*** ./assets/book.svg ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var SvgBook = function SvgBook(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    className: "book_svg__c-card-watchlist-label__icon",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 16 16",
+    "data-t": "watchlist-filled-small-svg",
+    "aria-labelledby": "watchlist-filled-small-svg",
+    "aria-hidden": "true"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M4 2h8a1 1 0 0 1 1 1v9.92a1 1 0 0 1-1.625.78L8 11l-3.375 2.7A1 1 0 0 1 3 12.92V3a1 1 0 0 1 1-1z"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SvgBook);
+
+/***/ }),
+
 /***/ "./assets/bookmark.svg":
 /*!*****************************!*\
   !*** ./assets/bookmark.svg ***!
@@ -1386,9 +1422,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _MiniItem_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MiniItem.css */ "./src/modules/MiniItem/MiniItem.css");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_book_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/book.svg */ "./assets/book.svg");
+/* harmony import */ var _MiniItem_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MiniItem.css */ "./src/modules/MiniItem/MiniItem.css");
+
 
 
 
@@ -1399,6 +1437,32 @@ var MiniItem = function MiniItem(_ref) {
       tipo = _ref.tipo,
       sound = _ref.sound,
       bookmark = _ref.bookmark;
+
+  if (bookmark) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "miniitemcont"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "minibase",
+      style: {
+        backgroundImage: "url(".concat(img, ")")
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "coso"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "cosito"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_assets_book_svg__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      className: "book"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "minnbase"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "foot"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+      className: "type"
+    }, tipo), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+      className: "sub"
+    }, sound))));
+  }
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "miniitemcont"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -1418,11 +1482,11 @@ var MiniItem = function MiniItem(_ref) {
 };
 
 MiniItem.propTypes = {
-  img: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
-  title: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
-  tipo: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
-  sound: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
-  bookmark: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool.isRequired)
+  img: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string.isRequired),
+  title: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string.isRequired),
+  tipo: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string.isRequired),
+  sound: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string.isRequired),
+  bookmark: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool.isRequired)
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MiniItem);
 
@@ -2102,7 +2166,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\r\n    font-family: 'Lato';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"woff2\");\r\n    font-weight: bold;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Lato';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format(\"woff2\");\r\n    font-weight: 400;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Lato';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") format(\"woff2\");\r\n    font-weight: 500;\r\n    font-style: normal;\r\n}\r\n\r\n.sub::before {\r\n    background-color: #a0a0a0;\r\n    content: \"\";\r\n    display: inline-block;\r\n    height: 0.25rem;\r\n    line-height: 1;\r\n    margin-left: 0.25rem;\r\n    margin-right: 0.25rem;\r\n    top: 50%;\r\n    transform: translateY(-50%) rotate(45deg);\r\n    width: 0.25rem;\r\n}\r\n\r\nh4 {\r\n    font-family: Lato;\r\n    color: #fff;\r\n    font-weight: 500;\r\n    display: block;\r\n    margin-block-start: 1.33em;\r\n    margin-block-end: 1.33em;\r\n    margin-inline-start: 0px;\r\n    margin-inline-end: 0px;\r\n}\r\n\r\n.miniitemcont {\r\n    width: 164px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding-top: 8px;\r\n    cursor: pointer;\r\n}\r\n\r\n.miniitemcont:hover {\r\n    background-color: #141519;\r\n    box-shadow: 0 0 0 0.3rem #141519;\r\n}\r\n\r\n.minnbase {\r\n    display: flex;\r\n    align-items: flex-start;\r\n    flex-direction: column;\r\n    width: 100%;\r\n    padding-left: 13px;\r\n}\r\n\r\n.type {\r\n    color: #2abdbb;\r\n}\r\n\r\n.sub {\r\n    color: #a0a0a0;\r\n}\r\n\r\n.minibase {\r\n    width: 150px;\r\n    height: 225px;\r\n    background-repeat: no-repeat;\r\n    background-size: contain;\r\n    object-fit: contain;\r\n\r\n    transition: 2s ease;\r\n    transition-delay: 0.5s;\r\n}", "",{"version":3,"sources":["webpack://./src/modules/MiniItem/MiniItem.css"],"names":[],"mappings":"AAAA;IACI,mBAAmB;IACnB,4DAA2D;IAC3D,iBAAiB;IACjB,kBAAkB;AACtB;;AAEA;IACI,mBAAmB;IACnB,4DAA4D;IAC5D,gBAAgB;IAChB,kBAAkB;AACtB;;AAEA;IACI,mBAAmB;IACnB,4DAA8D;IAC9D,gBAAgB;IAChB,kBAAkB;AACtB;;AAEA;IACI,yBAAyB;IACzB,WAAW;IACX,qBAAqB;IACrB,eAAe;IACf,cAAc;IACd,oBAAoB;IACpB,qBAAqB;IACrB,QAAQ;IACR,yCAAyC;IACzC,cAAc;AAClB;;AAEA;IACI,iBAAiB;IACjB,WAAW;IACX,gBAAgB;IAChB,cAAc;IACd,0BAA0B;IAC1B,wBAAwB;IACxB,wBAAwB;IACxB,sBAAsB;AAC1B;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,uBAAuB;IACvB,gBAAgB;IAChB,eAAe;AACnB;;AAEA;IACI,yBAAyB;IACzB,gCAAgC;AACpC;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,sBAAsB;IACtB,WAAW;IACX,kBAAkB;AACtB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,4BAA4B;IAC5B,wBAAwB;IACxB,mBAAmB;;IAEnB,mBAAmB;IACnB,sBAAsB;AAC1B","sourcesContent":["@font-face {\r\n    font-family: 'Lato';\r\n    src: url(\"../../../fonts/Lato-Heavy.woff2\") format(\"woff2\");\r\n    font-weight: bold;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Lato';\r\n    src: url(\"../../../fonts/Lato-Medium.woff2\") format(\"woff2\");\r\n    font-weight: 400;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Lato';\r\n    src: url(\"../../../fonts/Lato-Semibold.woff2\") format(\"woff2\");\r\n    font-weight: 500;\r\n    font-style: normal;\r\n}\r\n\r\n.sub::before {\r\n    background-color: #a0a0a0;\r\n    content: \"\";\r\n    display: inline-block;\r\n    height: 0.25rem;\r\n    line-height: 1;\r\n    margin-left: 0.25rem;\r\n    margin-right: 0.25rem;\r\n    top: 50%;\r\n    transform: translateY(-50%) rotate(45deg);\r\n    width: 0.25rem;\r\n}\r\n\r\nh4 {\r\n    font-family: Lato;\r\n    color: #fff;\r\n    font-weight: 500;\r\n    display: block;\r\n    margin-block-start: 1.33em;\r\n    margin-block-end: 1.33em;\r\n    margin-inline-start: 0px;\r\n    margin-inline-end: 0px;\r\n}\r\n\r\n.miniitemcont {\r\n    width: 164px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding-top: 8px;\r\n    cursor: pointer;\r\n}\r\n\r\n.miniitemcont:hover {\r\n    background-color: #141519;\r\n    box-shadow: 0 0 0 0.3rem #141519;\r\n}\r\n\r\n.minnbase {\r\n    display: flex;\r\n    align-items: flex-start;\r\n    flex-direction: column;\r\n    width: 100%;\r\n    padding-left: 13px;\r\n}\r\n\r\n.type {\r\n    color: #2abdbb;\r\n}\r\n\r\n.sub {\r\n    color: #a0a0a0;\r\n}\r\n\r\n.minibase {\r\n    width: 150px;\r\n    height: 225px;\r\n    background-repeat: no-repeat;\r\n    background-size: contain;\r\n    object-fit: contain;\r\n\r\n    transition: 2s ease;\r\n    transition-delay: 0.5s;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\r\n    font-family: 'Lato';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"woff2\");\r\n    font-weight: bold;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Lato';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format(\"woff2\");\r\n    font-weight: 400;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Lato';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") format(\"woff2\");\r\n    font-weight: 500;\r\n    font-style: normal;\r\n}\r\n\r\n.sub::before {\r\n    background-color: #a0a0a0;\r\n    content: \"\";\r\n    display: inline-block;\r\n    height: 0.25rem;\r\n    line-height: 1;\r\n    margin-left: 0.25rem;\r\n    margin-right: 0.25rem;\r\n    top: 50%;\r\n    transform: translateY(-50%) rotate(45deg);\r\n    width: 0.25rem;\r\n}\r\n\r\nh4 {\r\n    font-family: Lato;\r\n    color: #fff;\r\n    font-weight: 500;\r\n    display: block;\r\n    margin-block-start: 1.33em;\r\n    margin-block-end: 1.33em;\r\n    margin-inline-start: 0px;\r\n    margin-inline-end: 0px;\r\n}\r\n\r\n.miniitemcont {\r\n    width: 164px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding-top: 8px;\r\n    cursor: pointer;\r\n}\r\n\r\n.miniitemcont:hover {\r\n    background-color: #141519;\r\n    box-shadow: 0 0 0 0.3rem #141519;\r\n}\r\n\r\n.minnbase {\r\n    display: flex;\r\n    align-items: flex-start;\r\n    flex-direction: column;\r\n    width: 100%;\r\n    padding-left: 13px;\r\n}\r\n\r\n.type {\r\n    color: #2abdbb;\r\n}\r\n\r\n.sub {\r\n    color: #a0a0a0;\r\n}\r\n\r\n.minibase {\r\n    width: 150px;\r\n    height: 225px;\r\n    background-repeat: no-repeat;\r\n    background-size: contain;\r\n    object-fit: contain;\r\n\r\n    transition: 2s ease;\r\n    transition-delay: 0.5s;\r\n}\r\n\r\n.coso {\r\n    color: #000;\r\n    position: absolute;\r\n    right: -70px;\r\n    top: -225px;\r\n    transition: color .2s ease;\r\n    width: 1rem;\r\n    z-index: 1;\r\n    position: relative;\r\n}\r\n\r\n.cosito {\r\n    border-bottom: 1rem solid #0000;\r\n    border-left: 1rem solid #0000;\r\n    border-right-color: initial;\r\n    border-right-style: solid;\r\n    border-right-width: 1rem;\r\n    border-top-style: solid;\r\n    border-top-width: 1rem;\r\n    height: 0;\r\n    position: absolute;\r\n    right: 0;\r\n    top: 0;\r\n    width: 0;\r\n}\r\n\r\n.book {\r\n    fill: #f47521;\r\n    position: absolute;\r\n}", "",{"version":3,"sources":["webpack://./src/modules/MiniItem/MiniItem.css"],"names":[],"mappings":"AAAA;IACI,mBAAmB;IACnB,4DAA2D;IAC3D,iBAAiB;IACjB,kBAAkB;AACtB;;AAEA;IACI,mBAAmB;IACnB,4DAA4D;IAC5D,gBAAgB;IAChB,kBAAkB;AACtB;;AAEA;IACI,mBAAmB;IACnB,4DAA8D;IAC9D,gBAAgB;IAChB,kBAAkB;AACtB;;AAEA;IACI,yBAAyB;IACzB,WAAW;IACX,qBAAqB;IACrB,eAAe;IACf,cAAc;IACd,oBAAoB;IACpB,qBAAqB;IACrB,QAAQ;IACR,yCAAyC;IACzC,cAAc;AAClB;;AAEA;IACI,iBAAiB;IACjB,WAAW;IACX,gBAAgB;IAChB,cAAc;IACd,0BAA0B;IAC1B,wBAAwB;IACxB,wBAAwB;IACxB,sBAAsB;AAC1B;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,uBAAuB;IACvB,gBAAgB;IAChB,eAAe;AACnB;;AAEA;IACI,yBAAyB;IACzB,gCAAgC;AACpC;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,sBAAsB;IACtB,WAAW;IACX,kBAAkB;AACtB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,4BAA4B;IAC5B,wBAAwB;IACxB,mBAAmB;;IAEnB,mBAAmB;IACnB,sBAAsB;AAC1B;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB,YAAY;IACZ,WAAW;IACX,0BAA0B;IAC1B,WAAW;IACX,UAAU;IACV,kBAAkB;AACtB;;AAEA;IACI,+BAA+B;IAC/B,6BAA6B;IAC7B,2BAA2B;IAC3B,yBAAyB;IACzB,wBAAwB;IACxB,uBAAuB;IACvB,sBAAsB;IACtB,SAAS;IACT,kBAAkB;IAClB,QAAQ;IACR,MAAM;IACN,QAAQ;AACZ;;AAEA;IACI,aAAa;IACb,kBAAkB;AACtB","sourcesContent":["@font-face {\r\n    font-family: 'Lato';\r\n    src: url(\"../../../fonts/Lato-Heavy.woff2\") format(\"woff2\");\r\n    font-weight: bold;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Lato';\r\n    src: url(\"../../../fonts/Lato-Medium.woff2\") format(\"woff2\");\r\n    font-weight: 400;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Lato';\r\n    src: url(\"../../../fonts/Lato-Semibold.woff2\") format(\"woff2\");\r\n    font-weight: 500;\r\n    font-style: normal;\r\n}\r\n\r\n.sub::before {\r\n    background-color: #a0a0a0;\r\n    content: \"\";\r\n    display: inline-block;\r\n    height: 0.25rem;\r\n    line-height: 1;\r\n    margin-left: 0.25rem;\r\n    margin-right: 0.25rem;\r\n    top: 50%;\r\n    transform: translateY(-50%) rotate(45deg);\r\n    width: 0.25rem;\r\n}\r\n\r\nh4 {\r\n    font-family: Lato;\r\n    color: #fff;\r\n    font-weight: 500;\r\n    display: block;\r\n    margin-block-start: 1.33em;\r\n    margin-block-end: 1.33em;\r\n    margin-inline-start: 0px;\r\n    margin-inline-end: 0px;\r\n}\r\n\r\n.miniitemcont {\r\n    width: 164px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding-top: 8px;\r\n    cursor: pointer;\r\n}\r\n\r\n.miniitemcont:hover {\r\n    background-color: #141519;\r\n    box-shadow: 0 0 0 0.3rem #141519;\r\n}\r\n\r\n.minnbase {\r\n    display: flex;\r\n    align-items: flex-start;\r\n    flex-direction: column;\r\n    width: 100%;\r\n    padding-left: 13px;\r\n}\r\n\r\n.type {\r\n    color: #2abdbb;\r\n}\r\n\r\n.sub {\r\n    color: #a0a0a0;\r\n}\r\n\r\n.minibase {\r\n    width: 150px;\r\n    height: 225px;\r\n    background-repeat: no-repeat;\r\n    background-size: contain;\r\n    object-fit: contain;\r\n\r\n    transition: 2s ease;\r\n    transition-delay: 0.5s;\r\n}\r\n\r\n.coso {\r\n    color: #000;\r\n    position: absolute;\r\n    right: -70px;\r\n    top: -225px;\r\n    transition: color .2s ease;\r\n    width: 1rem;\r\n    z-index: 1;\r\n    position: relative;\r\n}\r\n\r\n.cosito {\r\n    border-bottom: 1rem solid #0000;\r\n    border-left: 1rem solid #0000;\r\n    border-right-color: initial;\r\n    border-right-style: solid;\r\n    border-right-width: 1rem;\r\n    border-top-style: solid;\r\n    border-top-width: 1rem;\r\n    height: 0;\r\n    position: absolute;\r\n    right: 0;\r\n    top: 0;\r\n    width: 0;\r\n}\r\n\r\n.book {\r\n    fill: #f47521;\r\n    position: absolute;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

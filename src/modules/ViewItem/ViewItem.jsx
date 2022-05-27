@@ -3,7 +3,7 @@ import Proptypes from 'prop-types'
 import Play from '../../../assets/play.svg'
 import Comm from '../../../assets/comments.svg'
 import Rel from '../../../assets/relod.svg'
-import MiniProgress from '../MiniProgressBar/MiniProgress.jsx'
+import MiniProgress from '../MiniProgressBar/MiniProgress'
 import './ViewItem.css'
 
 const Viewitem = ({

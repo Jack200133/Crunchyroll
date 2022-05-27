@@ -1,7 +1,7 @@
 import React from 'react'
 import Proptypes from 'prop-types'
 import './Down.css'
-import ProgressBar from '../ProgressBar/ProgressBar.jsx'
+import ProgressBar from '../ProgressBar/ProgressBar'
 
 const Down = ({ text, actt, onClick }) => {
   if (actt) {

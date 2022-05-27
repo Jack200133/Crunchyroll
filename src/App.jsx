@@ -1,9 +1,10 @@
 import React from 'react'
 import './main.css'
-import Navbar from './modules/Navbar/navbar.jsx'
-import Carrusel from './modules/Carrusel/Carrusel.jsx'
-import MiniCarrusel from './modules/MiniCarrusel/MiniCarrusel.jsx'
-import View from './modules/View/View.jsx'
+import Navbar from './modules/Navbar/Navbar'
+import Carrusel from './modules/Carrusel/Carrusel'
+import MiniCarrusel from './modules/MiniCarrusel/MiniCarrusel'
+import View from './modules/View/View'
+import 'minireset.css/minireset.css'
 
 const App = () => (
   <>

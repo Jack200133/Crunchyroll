@@ -2,7 +2,7 @@
 /* eslint-disable no-nested-ternary */
 import React, { useState, cloneElement } from 'react'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
-import MiniContainer from '../MiniContainer/MiniContainer.jsx'
+import MiniContainer from '../MiniContainer/MiniContainer'
 import Izq from '../../../assets/arrowizq.svg'
 import Der from '../../../assets/arrowder.svg'
 import t1 from '../../../assets/minimgs/dress.jpeg'

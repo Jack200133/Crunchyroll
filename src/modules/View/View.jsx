@@ -1,7 +1,7 @@
 import React, { useState, cloneElement } from 'react'
 import './View.css'
 import Izq from '../../../assets/arrowizq.svg'
-import Viewitem from '../ViewItem/ViewItem.jsx'
+import Viewitem from '../ViewItem/ViewItem'
 import t1 from '../../../assets/viendo/cuckos.jpeg'
 import t2 from '../../../assets/viendo/kaguya.jpeg'
 import t3 from '../../../assets/viendo/spy.jpeg'

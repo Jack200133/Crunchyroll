@@ -1,6 +1,6 @@
 import React from 'react'
 import Proptypes from 'prop-types'
-import Down from '../Down/Down.jsx'
+import Down from '../Down/Down'
 import './DownMenu.css'
 
 const contextoo = ['RASCAL DOES NOT DREAM OF BUNNY GIRL SENPAI', 'AHAREN-SAN WA HAKARENAI',

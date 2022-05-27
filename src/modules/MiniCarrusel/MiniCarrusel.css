@@ -51,8 +51,8 @@ h2 {
 
 
 .iconizq2 {
-    min-width: 60px;
-    min-height: 60px;
+    width: 60px;
+    height: 60px;
     background: transparent;
     border-color: transparent;
     fill: white;
@@ -64,8 +64,8 @@ button:hover {
 
 .iconder2 {
     fill: white;
-    min-width: 60px;
-    min-height: 60px;
+    width: 60px;
+    height: 60px;
     background: transparent;
     border-color: transparent;
 }
