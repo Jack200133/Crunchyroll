@@ -105,7 +105,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".blue {\r\n    overflow: hidden;\r\n  
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".diossabe {\r\n    background-color: linear-gradient(rgb(244, 117, 33), rgb(250, 184, 24), rgb(244, 117, 33));\r\n    min-width: 5rem;\r\n    min-height: 5rem;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    object-fit: contain;\r\n}\r\n\r\n.containertotal {\r\n    position: relative;\r\n}\r\n\r\n.iconizq {\r\n    min-width: 60px;\r\n    min-height: 60px;\r\n    position: absolute;\r\n\r\n    top: 260px;\r\n    left: 1280px;\r\n    background: transparent;\r\n    border-color: transparent;\r\n}\r\n\r\nbutton:hover {\r\n    background-color: black;\r\n}\r\n\r\nbutton:hover .der {\r\n    fill: white;\r\n}\r\n\r\nbutton:hover .izq {\r\n    fill: white;\r\n}\r\n\r\n.iconder {\r\n    min-width: 60px;\r\n    min-height: 60px;\r\n    position: absolute;\r\n    left: 200px;\r\n    top: 260px;\r\n    background: transparent;\r\n    border-color: transparent;\r\n}\r\n\r\n.der {\r\n    transform: rotate(180deg);\r\n}\r\n\r\n\r\n\r\n\r\nh1 {\r\n    padding-top: 260px;\r\n    color: white;\r\n}\r\n\r\n.HOKL {\r\n    height: calc(500px + 3.75rem);\r\n    display: block;\r\n    position: relative;\r\n    flex-direction: row;\r\n    width: 100vw;\r\n    overflow: hidden;\r\n}\r\n\r\n.left-exit {\r\n    transform: translateX(0);\r\n}\r\n\r\n.left-exit-active {\r\n    transform: translateX(100%);\r\n    transition: all 2s;\r\n}\r\n\r\n.left-enter {\r\n\r\n    transform: translateX(-100%);\r\n}\r\n\r\n.left-enter-active {\r\n\r\n    transform: translateX(0);\r\n    transition: all 2s;\r\n}\r\n\r\n\r\n.right-exit {\r\n    transform: translateX(0);\r\n}\r\n\r\n.right-exit-active {\r\n    transform: translateX(-100%);\r\n    transition: all 2s;\r\n}\r\n\r\n.right-enter {\r\n    transform: translateX(100%);\r\n}\r\n\r\n.right-enter-active {\r\n\r\n    transform: translateX(0);\r\n    transition: all 2s;\r\n}\r\n\r\n.carruselItem {\r\n    height: 100%;\r\n    box-sizing: border-box;\r\n    width: 100vw;\r\n    display: flex;\r\n    overflow: hidden;\r\n    position: absolute;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding-top: 3.75rem;\r\n    background-color: #2abdbb;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".diossabe {\r\n    background-color: linear-gradient(rgb(244, 117, 33), rgb(250, 184, 24), rgb(244, 117, 33));\r\n    min-width: 5rem;\r\n    min-height: 5rem;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    object-fit: contain;\r\n}\r\n\r\n.containertotal {\r\n    position: relative;\r\n}\r\n\r\n.iconizq {\r\n    width: 60px;\r\n    height: 60px;\r\n    position: absolute;\r\n\r\n    top: 260px;\r\n    left: 1280px;\r\n    background: transparent;\r\n    border-color: transparent;\r\n}\r\n\r\nbutton:hover {\r\n    background-color: black;\r\n}\r\n\r\nbutton:hover .der {\r\n    fill: white;\r\n}\r\n\r\nbutton:hover .izq {\r\n    fill: white;\r\n}\r\n\r\n.iconder {\r\n    width: 60px;\r\n    height: 60px;\r\n    position: absolute;\r\n    left: 200px;\r\n    top: 260px;\r\n    background: transparent;\r\n    border-color: transparent;\r\n}\r\n\r\n.der {\r\n    transform: rotate(180deg);\r\n}\r\n\r\n\r\n\r\n\r\nh1 {\r\n    padding-top: 260px;\r\n    color: white;\r\n}\r\n\r\n.HOKL {\r\n    height: calc(500px + 3.75rem);\r\n    display: block;\r\n    position: relative;\r\n    flex-direction: row;\r\n    width: 100vw;\r\n    overflow: hidden;\r\n    overflow: hidden;\r\n}\r\n\r\n.left-exit {\r\n    transform: translateX(0);\r\n}\r\n\r\n.left-exit-active {\r\n    transform: translateX(100%);\r\n    transition: all 2s;\r\n}\r\n\r\n.left-enter {\r\n\r\n    transform: translateX(-100%);\r\n}\r\n\r\n.left-enter-active {\r\n\r\n    transform: translateX(0);\r\n    transition: all 2s;\r\n}\r\n\r\n\r\n.right-exit {\r\n    transform: translateX(0);\r\n}\r\n\r\n.right-exit-active {\r\n    transform: translateX(-100%);\r\n    transition: all 2s;\r\n}\r\n\r\n.right-enter {\r\n    transform: translateX(100%);\r\n}\r\n\r\n.right-enter-active {\r\n\r\n    transform: translateX(0);\r\n    transition: all 2s;\r\n}\r\n\r\n.carruselItem {\r\n    height: 100%;\r\n    box-sizing: border-box;\r\n    width: 100vw;\r\n    display: flex;\r\n    overflow: hidden;\r\n    position: absolute;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding-top: 3.75rem;\r\n    background-color: #2abdbb;\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -178,7 +178,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\r\n    font-family: 'Crunchyroll';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"woff2\");\r\n    font-weight: Bold;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Crunchyroll';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format(\"woff2\");\r\n    font-weight: normal;\r\n    font-style: normal;\r\n}\r\n\r\nh2 {\r\n    font-family: Crunchyroll;\r\n    color: #fff;\r\n    display: block;\r\n    font-size: 30px;\r\n    margin-block-start: 0.83em;\r\n    margin-block-end: 0.83em;\r\n    margin-inline-start: 0px;\r\n    margin-inline-end: 0px;\r\n}\r\n\r\n.gradient {\r\n    width: 1050px;\r\n    height: 5px;\r\n    background-image: linear-gradient(to left, #213944, #2abdbb);\r\n}\r\n\r\n.box {\r\n    width: 1050px;\r\n    display: flex;\r\n    justify-self: flex-start;\r\n}\r\n\r\n.containerMini {\r\n    display: flex;\r\n    justify-content: flex-start;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n\r\n.butuns {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    flex-direction: row;\r\n}\r\n\r\n\r\n.iconizq2 {\r\n    min-width: 60px;\r\n    min-height: 60px;\r\n    background: transparent;\r\n    border-color: transparent;\r\n    fill: white;\r\n}\r\n\r\nbutton:hover {\r\n    background-color: #23252b;\r\n}\r\n\r\n.iconder2 {\r\n    fill: white;\r\n    min-width: 60px;\r\n    min-height: 60px;\r\n    background: transparent;\r\n    border-color: transparent;\r\n}\r\n\r\n.der {\r\n    transform: rotate(180deg);\r\n}\r\n\r\n.HOLK {\r\n    display: block;\r\n    max-width: 1050px;\r\n    position: relative;\r\n    flex-direction: row;\r\n    height: 400px;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\r\n    font-family: 'Crunchyroll';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"woff2\");\r\n    font-weight: Bold;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Crunchyroll';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format(\"woff2\");\r\n    font-weight: normal;\r\n    font-style: normal;\r\n}\r\n\r\n.titti {\r\n    font-family: 'Crunchyroll';\r\n    color: #fff;\r\n    display: block;\r\n    --line-height: 2.25rem;\r\n    font-size: 1.75rem;\r\n    margin-block-start: 0.83em;\r\n    margin-block-end: 0.83em;\r\n    margin-inline-start: 0px;\r\n    margin-inline-end: 0px;\r\n    font-weight: 0;\r\n}\r\n\r\n.gradient {\r\n    width: 1050px;\r\n    height: 5px;\r\n    background-image: linear-gradient(to left, #213944, #2abdbb);\r\n}\r\n\r\n.box {\r\n    width: 1050px;\r\n    display: flex;\r\n    justify-self: flex-start;\r\n}\r\n\r\n.containerMini {\r\n    display: flex;\r\n    justify-content: flex-start;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n\r\n.butuns {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    flex-direction: row;\r\n}\r\n\r\n\r\n.iconizq2 {\r\n    width: 60px;\r\n    height: 60px;\r\n    background: transparent;\r\n    border-color: transparent;\r\n    fill: white;\r\n}\r\n\r\nbutton:hover {\r\n    background-color: #23252b;\r\n}\r\n\r\n.iconder2 {\r\n    fill: white;\r\n    width: 60px;\r\n    height: 60px;\r\n    background: transparent;\r\n    border-color: transparent;\r\n}\r\n\r\n.der {\r\n    transform: rotate(180deg);\r\n}\r\n\r\n.HOLK {\r\n    display: block;\r\n    max-width: 1050px;\r\n    position: relative;\r\n    flex-direction: row;\r\n    height: 400px;\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -362,12 +362,21 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\r\n    font-family: 'Lato
 /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3645);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1667);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(9062), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(6998), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(5216), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".bgradient {\r\n    width: 1050px;\r\n    height: 5px;\r\n    background-image: linear-gradient(to left, #fab818, #ef4323);\r\n}\r\n\r\n.viendos {\r\n    width: 1050px;\r\n    display: flex;\r\n    align-items: flex-start;\r\n    justify-content: flex-start;\r\n    gap: 20px;\r\n    margin-top: 20px;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\r\n    font-family: 'Lato';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"woff2\");\r\n    font-weight: bold;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Lato';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format(\"woff2\");\r\n    font-weight: 400;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'Lato';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") format(\"woff2\");\r\n    font-weight: 500;\r\n    font-style: normal;\r\n}\r\n\r\n.bgradient {\r\n    width: 1050px;\r\n    height: 5px;\r\n    background-image: linear-gradient(to left, #fab818, #ef4323);\r\n}\r\n\r\n.viendos {\r\n    width: 1050px;\r\n    display: flex;\r\n    align-items: flex-start;\r\n    justify-content: flex-start;\r\n    gap: 20px;\r\n    margin-top: 20px;\r\n}\r\n\r\n.izq2 {\r\n    fill: #a0a0a0;\r\n    width: 25px;\r\n}\r\n\r\n.historial {\r\n    color: #a0a0a0;\r\n    font-family: Lato;\r\n    font-weight: 900;\r\n}\r\n\r\n.iconizq3:hover .historial {\r\n    color: white;\r\n}\r\n\r\n.iconizq3:hover .izq2 {\r\n    fill: white;\r\n}\r\n\r\n.iconizq3 {\r\n    display: flex;\r\n    background-color: black;\r\n    height: fit-content;\r\n    align-items: center;\r\n    justify-content: flex-end;\r\n}\r\n\r\n.box {\r\n    display: flex;\r\n    justify-content: space-between;\r\n\r\n    align-items: center;\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1111,7 +1120,7 @@ var SvgFlecha = function SvgFlecha(props) {
 };
 
 /* harmony default export */ const flecha = (SvgFlecha);
-;// CONCATENATED MODULE: ./src/modules/Navbar/navbar.jsx
+;// CONCATENATED MODULE: ./src/modules/Navbar/Navbar.jsx
 
 
 
@@ -1164,7 +1173,7 @@ var Navbar = function Navbar() {
   }))));
 };
 
-/* harmony default export */ const modules_Navbar_navbar = (Navbar);
+/* harmony default export */ const Navbar_Navbar = (Navbar);
 ;// CONCATENATED MODULE: external "@babel/runtime/helpers/slicedToArray"
 const slicedToArray_namespaceObject = require("@babel/runtime/helpers/slicedToArray");
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_namespaceObject);
@@ -1453,7 +1462,7 @@ var SvgCircle = function SvgCircle(props) {
 };
 
 /* harmony default export */ const circle = (SvgCircle);
-;// CONCATENATED MODULE: ./src/modules/CarrulItem2/carrulItem2.jsx
+;// CONCATENATED MODULE: ./src/modules/CarrulItem2/CarrulItem2.jsx
 
 
 
@@ -1484,7 +1493,7 @@ CarrulItem2.propTypes = {
   mage: (external_prop_types_default()).string.isRequired,
   className: (external_prop_types_default()).string.isRequired
 };
-/* harmony default export */ const modules_CarrulItem2_carrulItem2 = (CarrulItem2);
+/* harmony default export */ const CarrulItem2_CarrulItem2 = (CarrulItem2);
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/modules/CarrulItem3/carrulItem3.css
 var carrulItem3 = __webpack_require__(685);
 ;// CONCATENATED MODULE: ./src/modules/CarrulItem3/carrulItem3.css
@@ -1547,7 +1556,7 @@ var SvgCircle2 = function SvgCircle2(props) {
 };
 
 /* harmony default export */ const circle2 = (SvgCircle2);
-;// CONCATENATED MODULE: ./src/modules/CarrulItem3/carrulItem3.jsx
+;// CONCATENATED MODULE: ./src/modules/CarrulItem3/CarrulItem3.jsx
 
 
 
@@ -1576,7 +1585,7 @@ CarrulItem3.propTypes = {
   mage: (external_prop_types_default()).string.isRequired,
   className: (external_prop_types_default()).string.isRequired
 };
-/* harmony default export */ const modules_CarrulItem3_carrulItem3 = (CarrulItem3);
+/* harmony default export */ const CarrulItem3_CarrulItem3 = (CarrulItem3);
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/modules/Down/Down.css
 var Down = __webpack_require__(3268);
 ;// CONCATENATED MODULE: ./src/modules/Down/Down.css
@@ -1965,22 +1974,22 @@ var Carrusel = function Carrusel() {
     };
   }, [Index]);
   var Image = ops[Index];
-  var opsBack = [/*#__PURE__*/external_react_default().createElement(modules_CarrulItem2_carrulItem2, {
+  var opsBack = [/*#__PURE__*/external_react_default().createElement(CarrulItem2_CarrulItem2, {
     mage: Image,
     className: "carruselItem"
-  }), /*#__PURE__*/external_react_default().createElement(modules_CarrulItem3_carrulItem3, {
+  }), /*#__PURE__*/external_react_default().createElement(CarrulItem3_CarrulItem3, {
     mage: Image,
     className: "carruselItem"
   }), /*#__PURE__*/external_react_default().createElement(modules_CarrulItem1_CarrulItem1, {
     mage: Image,
     className: "carruselItem"
-  }), /*#__PURE__*/external_react_default().createElement(modules_CarrulItem3_carrulItem3, {
+  }), /*#__PURE__*/external_react_default().createElement(CarrulItem3_CarrulItem3, {
     mage: Image,
     className: "carruselItem"
-  }), /*#__PURE__*/external_react_default().createElement(modules_CarrulItem2_carrulItem2, {
+  }), /*#__PURE__*/external_react_default().createElement(CarrulItem2_CarrulItem2, {
     mage: Image,
     className: "carruselItem"
-  }), /*#__PURE__*/external_react_default().createElement(modules_CarrulItem3_carrulItem3, {
+  }), /*#__PURE__*/external_react_default().createElement(CarrulItem3_CarrulItem3, {
     mage: Image,
     className: "carruselItem"
   })];
@@ -2471,7 +2480,9 @@ var MiniCarrusel_Carrusel = function Carrusel() {
     className: "containerMini"
   }, /*#__PURE__*/external_react_default().createElement("div", {
     className: "box"
-  }, /*#__PURE__*/external_react_default().createElement("h2", null, " Nuestras recomendaciones")), /*#__PURE__*/external_react_default().createElement("div", {
+  }, /*#__PURE__*/external_react_default().createElement("h2", {
+    className: "titti"
+  }, " Nuestras recomendaciones")), /*#__PURE__*/external_react_default().createElement("div", {
     className: "gradient"
   }), /*#__PURE__*/external_react_default().createElement("div", {
     className: "butuns"
@@ -2847,11 +2858,14 @@ var View_View_View = function View() {
     className: "containerMini"
   }, /*#__PURE__*/external_react_default().createElement("div", {
     className: "box"
-  }, /*#__PURE__*/external_react_default().createElement("h2", null, " Seguir viendo"), /*#__PURE__*/external_react_default().createElement("button", {
-    type: "button",
-    className: "iconizq2"
-  }, /*#__PURE__*/external_react_default().createElement(arrowizq, {
-    className: "izq"
+  }, /*#__PURE__*/external_react_default().createElement("h2", {
+    className: "titti"
+  }, " Seguir viendo"), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "iconizq3"
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "historial"
+  }, "VER HISTORIAL"), /*#__PURE__*/external_react_default().createElement(arrowizq, {
+    className: "izq2"
   }))), /*#__PURE__*/external_react_default().createElement("div", {
     className: "bgradient"
   }), /*#__PURE__*/external_react_default().createElement("div", {
@@ -2879,7 +2893,7 @@ var View_View_View = function View() {
 
 
 var App = function App() {
-  return /*#__PURE__*/external_react_default().createElement((external_react_default()).Fragment, null, /*#__PURE__*/external_react_default().createElement(modules_Navbar_navbar, null), /*#__PURE__*/external_react_default().createElement(Carrusel_Carrusel, null), /*#__PURE__*/external_react_default().createElement(modules_MiniCarrusel_MiniCarrusel, null), /*#__PURE__*/external_react_default().createElement(modules_View_View, null));
+  return /*#__PURE__*/external_react_default().createElement((external_react_default()).Fragment, null, /*#__PURE__*/external_react_default().createElement(Navbar_Navbar, null), /*#__PURE__*/external_react_default().createElement(Carrusel_Carrusel, null), /*#__PURE__*/external_react_default().createElement(modules_MiniCarrusel_MiniCarrusel, null), /*#__PURE__*/external_react_default().createElement(modules_View_View, null));
 };
 
 /* harmony default export */ const src_App = (App);
@@ -2889,11 +2903,11 @@ var App = function App() {
 
 
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3115;
 var app = external_express_default()();
 app.get('/', function (req, res) {
   var element = server_namespaceObject.renderToString( /*#__PURE__*/external_react_default().createElement(src_App, null));
-  var html = "\n    <html lang=\"en\">\n    <head>\n        <title>Document</title>\n        <link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"https://static.crunchyroll.com/cxweb/assets/img/favicons/favicon-96x96.png\"/>\n    </head>\n    <body style=\"margin: 0px;\">\n        <div id=\"root\">".concat(element, "</div>\n        <script src=\"/bundle.js\"></script>\n    </body>\n    </html>\n  ");
+  var html = "\n    <html lang=\"en\">\n    <head>\n        <title>Document</title>\n        <link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"https://static.crunchyroll.com/cxweb/assets/img/favicons/favicon-96x96.png\"/>\n    </head>\n    <body style=\"margin: 0px;\">\n        <div id=\"root\">".concat(element, "</div>\n        <script src=\"/bundle.jsx\"></script>\n    </body>\n    </html>\n  ");
   res.send(html);
 });
 app.use(external_express_default()["static"](external_path_default().join(__dirname, '../dist')));

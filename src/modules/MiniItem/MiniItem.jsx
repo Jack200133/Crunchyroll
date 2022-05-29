@@ -38,7 +38,6 @@ const MiniItem = ({
   )
 }
 
-
 MiniItem.propTypes = {
   img: Proptypes.string.isRequired,
   title: Proptypes.string.isRequired,

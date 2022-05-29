@@ -4,7 +4,6 @@ import Navbar from './modules/Navbar/Navbar'
 import Carrusel from './modules/Carrusel/Carrusel'
 import MiniCarrusel from './modules/MiniCarrusel/MiniCarrusel'
 import View from './modules/View/View'
-import 'minireset.css/minireset.css'
 
 const App = () => (
   <>

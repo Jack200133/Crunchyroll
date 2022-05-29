@@ -2,7 +2,7 @@ import path from 'path'
 import React from 'react'
 import * as ReactDOMServer from 'react-dom/server'
 import express from 'express'
-import App from '../src/App.jsx'
+import App from '../src/App'
 
 const PORT = process.env.PORT || 3115
 const app = express()
@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     </head>
     <body style="margin: 0px;">
         <div id="root">${element}</div>
-        <script src="/bundle.js"></script>
+        <script src="/bundle.jsx"></script>
     </body>
     </html>
   `
