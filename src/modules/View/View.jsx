@@ -47,7 +47,7 @@ const data = [m2, m1, m3, m4]
 const View = () => (
   <div className="containerMini">
     <div className="box">
-      <h2> Seguir viendo</h2>
+      <h2 className="titti"> Seguir viendo</h2>
       <button type="button" className="iconizq2">
         <Izq className="izq" />
       </button>

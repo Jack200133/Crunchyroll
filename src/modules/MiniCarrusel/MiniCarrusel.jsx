@@ -184,7 +184,7 @@ const Carrusel = () => {
   return (
     <div className="containerMini">
       <div className="box">
-        <h2> Nuestras recomendaciones</h2>
+        <h2 className="titti"> Nuestras recomendaciones</h2>
       </div>
       <div className="gradient" />
       <div className="butuns">

@@ -9,7 +9,7 @@ module.exports = {
   entry: ['./server/index.jsx'],
   externals: [webpackNodeExternals()],
   output: {
-    filename: 'bundle.jsx',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, './server'),
   },
   module: {
@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: [ 'css-loader'],
       },
       {
         test: /\.svg$/i,

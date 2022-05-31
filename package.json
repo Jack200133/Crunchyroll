@@ -7,7 +7,7 @@
     "build": "webpack --mode development",
     "build-server": "webpack --config webpack.server.js",
     "start": "webpack-dev-server",
-    "start-server": "node ./server/bundle.jsx",
+    "start-server": "node ./server/bundle.js",
     "server": "npm run build && npm run build-server && npm run start-server",
     "lint": "eslint src/**"
   },
