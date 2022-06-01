@@ -12,7 +12,7 @@ A list of technologies used within the project:
 ***
 A little intro about the installation. 
 ```
-$ git clone [https://example.com](https://github.com/Jack200133/Crunchyroll)
+$ git clone https://github.com/Jack200133/Crunchyroll
 $ cd Crunchyroll
 $ npm install
 $ npm run start (to enable this option you need to add a index.html in dist)
