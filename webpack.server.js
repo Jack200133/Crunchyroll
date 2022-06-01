@@ -6,6 +6,7 @@ module.exports = {
     extensions: ['', '.js', '.jsx'],
   },
   target: 'node',
+  mode: 'production',
   entry: ['./server/index.jsx'],
   externals: [webpackNodeExternals()],
   output: {
